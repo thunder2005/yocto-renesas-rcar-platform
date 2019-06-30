@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/renesas-rcar" name="renesas"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="https://github.com/thunder2005" name="fishier"/>
 
   <project remote="linaro" revision="rocko" name="meta-linaro" path="sources/meta-linaro"/>
   <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
@@ -16,6 +17,7 @@
 	
   <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="renesas" revision="rocko" name="meta-renesas" path="sources/meta-renesas"/>
+  <project remote="fishier" revision="master" name="meta-renesas-machine" path="sources/meta-renesas-machine"/>
   
   <!--
   <project remote="freescale" revision="rocko" name="fsl-community-bsp-base" path="sources/base">
