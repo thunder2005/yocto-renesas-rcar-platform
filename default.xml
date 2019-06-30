@@ -18,7 +18,7 @@
   <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="renesas" revision="rocko" name="meta-renesas" path="sources/meta-renesas"/>
   <project remote="fishier" revision="master" name="meta-renesas-machine" path="sources/meta-renesas-machine">
-    <copyfile dest="README" src="README"/>
+    <copyfile dest="README.md" src="README.md"/>
 	<linkfile dest="script/setup-environment" src="setup-environment"/>  
 	<linkfile dest="script/setup-prepare.sh" src="setup-prepare"/>  
   </project>
