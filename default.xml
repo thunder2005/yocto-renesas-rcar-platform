@@ -19,8 +19,8 @@
   <project remote="renesas" revision="rocko" name="meta-renesas" path="sources/meta-renesas"/>
   <project remote="fishier" revision="master" name="meta-renesas-machine" path="sources/meta-renesas-machine">
     <copyfile dest="README.md" src="README.md"/>
-	<linkfile dest="script/setup-environment" src="setup-environment"/>  
-	<linkfile dest="script/setup-prepare.sh" src="setup-prepare"/>  
+	<linkfile dest="setup-environment" src="script/setup-environment"/>  
+	<linkfile dest="setup-prepare" src="script/setup-prepare.sh"/>  
   </project>
   
   <!--
